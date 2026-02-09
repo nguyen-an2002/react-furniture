@@ -1,0 +1,35 @@
+{
+    "heroTitle": "Contact",
+    "breadcrumbHome": "Home",
+    "breadcrumbContact": "Contact",
+    "title": "Get In Touch With Us",
+    "subtitle": "For more information about our product & services. Please feel free to drop us an email.",
+    "addressTitle": "Address",
+    "addressValue": "236 5th SE Avenue, New York NY10000",
+    "phoneTitle": "Phone",
+    "phoneValue": "+(84) 546-6789",
+    "timeTitle": "Working Time",
+    "timeValue": "Monday-Friday: 9:00 - 22:00",
+    "form": {
+        "name": "Your name",
+        "email": "Email address",
+        "subject": "Subject",
+        "message": "Message",
+        "submit": "Submit",
+        "placeholderName": "Abc",
+        "placeholderEmail": "abc@gmail.com",
+        "placeholderSubject": "Subject",
+        "placeholderMessage": "Hi! I'd like to ask about"
+    },
+    "success": "Message sent successfully!",
+    "error": {
+        "name": "Please enter your name",
+        "emailEmpty": "Please enter your email",
+        "emailInvalid": "Email is invalid",
+        "emailFormat": "Email must be a valid email ending with .com or .vn",
+        "subject": "Please enter subject",
+        "message": "Please enter your message",
+        "sendFail": "Send failed. Please try again.",
+        "server": "Cannot connect to server. Please try again later."
+    }
+}

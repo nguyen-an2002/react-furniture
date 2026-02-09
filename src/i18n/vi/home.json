@@ -1,0 +1,28 @@
+{
+    "hero": {
+        "tag": "Sản phẩm mới",
+        "title": "Khám phá bộ sưu tập mới",
+        "desc": "Những dòng trà thủ công giúp thư giãn tinh thần và mang lại giấc ngủ ngon.",
+        "buyNow": "MUA NGAY"
+    },
+    "browse": {
+        "title": "Khám phá danh mục",
+        "desc": "Khám phá các không gian phù hợp với phong cách sống của bạn.",
+        "dining": "Phòng ăn",
+        "living": "Phòng khách",
+        "bedroom": "Phòng ngủ"
+    },
+    "product": {
+        "title": "Sản phẩm",
+        "showMore": "Xem thêm"
+    },
+    "inspiration": {
+        "title": "50+ Phòng đẹp truyền cảm hứng",
+        "desc": "Nhà thiết kế của chúng tôi đã tạo ra rất nhiều mẫu phòng đẹp để truyền cảm hứng cho bạn",
+        "explore": "Khám phá thêm",
+        "tag": "01 — Phòng ngủ",
+        "cardTitle": "Bình yên nội tâm",
+        "mainAlt": "Hình ảnh cảm hứng chính",
+        "previewAlt": "Hình ảnh xem trước"
+    }
+}

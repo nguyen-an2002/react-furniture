@@ -1,0 +1,17 @@
+{
+    "hero": {
+        "title": "Cửa hàng",
+        "breadcrumb": "Trang chủ > Cửa hàng"
+    },
+    "toolbar": {
+        "showing": "Hiển thị {{from}}–{{to}} trên {{total}} sản phẩm",
+        "show": "Hiển thị",
+        "sort": "Sắp xếp",
+        "default": "Mặc định"
+    },
+    "pagination": {
+        "prev": "Trước",
+        "next": "Sau",
+        "page": "Trang {{current}} - {{total}}"
+    }
+}

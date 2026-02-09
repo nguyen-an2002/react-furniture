@@ -1,0 +1,35 @@
+{
+    "heroTitle": "Liên hệ",
+    "breadcrumbHome": "Trang chủ",
+    "breadcrumbContact": "Liên hệ",
+    "title": "Liên hệ với chúng tôi",
+    "subtitle": "Để biết thêm thông tin về sản phẩm và dịch vụ, vui lòng gửi email cho chúng tôi.",
+    "addressTitle": "Địa chỉ",
+    "addressValue": "236 5th SE Avenue, New York NY10000",
+    "phoneTitle": "Điện thoại",
+    "phoneValue": "+(84) 546-6789",
+    "timeTitle": "Thời gian làm việc",
+    "timeValue": "Thứ 2 - Thứ 6: 9:00 - 22:00",
+    "form": {
+        "name": "Tên của bạn",
+        "email": "Địa chỉ email",
+        "subject": "Chủ đề",
+        "message": "Nội dung",
+        "submit": "Gửi",
+        "placeholderName": "Abc",
+        "placeholderEmail": "abc@gmail.com",
+        "placeholderSubject": "Chủ đề",
+        "placeholderMessage": "Xin chào! Tôi muốn hỏi về"
+    },
+    "success": "Gửi tin nhắn thành công!",
+    "error": {
+        "name": "Vui lòng nhập tên",
+        "emailEmpty": "Vui lòng nhập email",
+        "emailInvalid": "Email không hợp lệ",
+        "emailFormat": "Email phải kết thúc bằng .com hoặc .vn",
+        "subject": "Vui lòng nhập chủ đề",
+        "message": "Vui lòng nhập nội dung",
+        "sendFail": "Gửi thất bại. Vui lòng thử lại.",
+        "server": "Không thể kết nối máy chủ. Vui lòng thử sau."
+    }
+}

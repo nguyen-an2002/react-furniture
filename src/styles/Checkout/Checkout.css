@@ -1,0 +1,123 @@
+/* ===== HERO ===== */
+.checkout-hero {
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkout-hero__content {
+    text-align: center;
+}
+
+.checkout-hero__content h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.checkout-hero__content p {
+    margin-top: 8px;
+    color: #555;
+}
+
+/* ===== PAGE ===== */
+.checkout-content {
+    max-width: 1100px;
+    margin: 80px auto;
+    padding: 0 20px;
+
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 60px;
+}
+
+/* ===== BILLING ===== */
+.billing h3 {
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.billing input {
+    width: 100%;
+    padding: 14px 12px;
+    margin-bottom: 18px;
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.billing input::placeholder {
+    color: #999;
+}
+
+/* ===== ORDER ===== */
+.order {
+    border: 1px solid #eee;
+    padding: 32px;
+}
+
+.order h3 {
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+/* product row */
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 18px;
+}
+
+.order-item b {
+    font-size: 14px;
+}
+
+.order-item p {
+    font-size: 13px;
+    color: #777;
+    margin-top: 4px;
+}
+
+.order-item span {
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+/* total */
+.order-total {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* button */
+.order button {
+    width: 100%;
+    padding: 14px 0;
+
+    background: #b88e2f;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.order button:hover {
+    opacity: 0.9;
+}
+
+.contact-error {
+    color: #c0392b;
+    margin-bottom: 12px;
+}
+
+.contact-success {
+    color: #27ae60;
+    margin-top: 12px;
+}

@@ -1,0 +1,30 @@
+.btn-primary {
+    padding: 14px 36px;
+    background-color: #b88e2f;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+
+
+.btn-show-more {
+    padding: 14px 40px;
+    background-color: transparent;
+    border: 1px solid #b88e2f;
+    color: #b88e2f;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-show-more:hover {
+    background-color: #b88e2f;
+    color: #ffffff;
+}

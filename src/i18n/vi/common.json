@@ -1,0 +1,50 @@
+{
+    "nav": {
+        "home": "Trang chủ",
+        "shop": "Cửa hàng",
+        "about": "Giới thiệu",
+        "contact": "Liên hệ"
+    },
+    "button": {
+        "addToCart": "Thêm vào giỏ",
+        "description": "Mô tả"
+    },
+    "footer": {
+        "links": "Liên kết",
+        "home": "Trang chủ",
+        "shop": "Cửa hàng",
+        "about": "Giới thiệu",
+        "contact": "Liên hệ",
+        "help": "Hỗ trợ",
+        "payment": "Phương thức thanh toán",
+        "returns": "Đổi trả",
+        "privacy": "Chính sách bảo mật",
+        "newsletter": "Bản tin",
+        "placeholder": "Nhập địa chỉ email của bạn",
+        "subscribe": "ĐĂNG KÝ",
+        "copyright": "2023 furniro. Bản quyền được bảo lưu"
+    },
+    "message": {
+        "emailRequired": "Vui lòng nhập email",
+        "emailInvalid": "Email không hợp lệ",
+        "subscribeSuccess": "Đăng ký thành công!"
+    },
+    "feature": {
+        "quality": {
+            "title": "Chất lượng cao",
+            "desc": "Được chế tác từ vật liệu cao cấp"
+        },
+        "warranty": {
+            "title": "Bảo hành",
+            "desc": "Hơn 2 năm"
+        },
+        "shipping": {
+            "title": "Miễn phí vận chuyển",
+            "desc": "Đơn hàng trên 150 $"
+        },
+        "support": {
+            "title": "Hỗ trợ 24 / 7",
+            "desc": "Hỗ trợ tận tâm"
+        }
+    }
+}

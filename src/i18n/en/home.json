@@ -1,0 +1,28 @@
+{
+    "hero": {
+        "tag": "New Arrival",
+        "title": "Discover Our New Collection",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.",
+        "buyNow": "BUY NOW"
+    },
+    "browse": {
+        "title": "Browse The Range",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "dining": "Dining",
+        "living": "Living",
+        "bedroom": "Bedroom"
+    },
+    "product": {
+        "title": "Our Products",
+        "showMore": "Show more"
+    },
+    "inspiration": {
+        "title": "50+ Beautiful rooms inspiration",
+        "desc": "Our designer already made a lot of beautiful prototype of rooms that inspire you",
+        "explore": "Explore More",
+        "tag": "01 — Bed Room",
+        "cardTitle": "Inner Peace",
+        "mainAlt": "Main inspiration",
+        "previewAlt": "Preview inspiration"
+    }
+}

@@ -1,0 +1,73 @@
+/* ===== THEME BACKGROUND + TEXT ===== */
+body.light .footer {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark .footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+/* ===== FOOTER STRUCTURE ===== */
+.footer__top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.footer__logo {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* text phụ giữ xám cho cả 2 mode */
+.footer__text {
+    color: #9f9f9f;
+    line-height: 1.6;
+}
+
+.footer__col h4 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* 🔥 LINK: ĂN THEO THEME */
+.footer__col a {
+    display: block;
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ===== NEWSLETTER ===== */
+.footer__newsletter {
+    display: flex;
+    gap: 12px;
+}
+
+.footer__newsletter input {
+    border: none;
+    border-bottom: 1px solid currentColor;
+    outline: none;
+    padding: 6px 0;
+    background: transparent;
+    color: inherit;
+}
+
+.footer__newsletter button {
+    background: none;
+    border: none;
+    border-bottom: 1px solid currentColor;
+    font-weight: 600;
+    cursor: pointer;
+    color: inherit;
+}
+
+/* ===== FOOTER BOTTOM ===== */
+.footer__bottom {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 14px;
+}

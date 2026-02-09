@@ -1,0 +1,32 @@
+.feature-strip {
+    background-color: #faf3ea;
+    padding: 40px 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    text-align: center;
+}
+
+.feature-item h4 {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.feature-item p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* DARK MODE */
+
+body.dark .feature-strip {
+    background-color: #1f1b14;
+}
+
+body.dark .feature-item h4 {
+    color: #ffffff;
+}
+
+body.dark .feature-item p {
+    color: #bdbdbd;
+}

@@ -1,0 +1,145 @@
+.shop {
+    width: 100%;
+}
+
+/* ===== HERO ===== */
+.shop-hero {
+    height: 300px;
+    background: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-hero h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+/* ===== TOOLBAR ===== */
+.shop-toolbar {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f1e7;
+    height: 70px;
+    box-sizing: border-box;
+}
+
+.shop-toolbar__right {
+    display: flex;
+    gap: 24px;
+}
+
+.shop-select {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.shop-select select {
+    padding: 6px 10px;
+}
+
+/* ===== PRODUCT GRID ===== */
+.shop-grid {
+    max-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.product-card__image {
+    position: relative;
+    overflow: hidden;
+}
+
+.product-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* hover mới hiện */
+.product-card__image:hover .product-overlay {
+    opacity: 1;
+}
+
+/* phan trang */
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.pagination button {
+    padding: 8px 14px;
+    border: 1px solid #ccc;
+    background: #fff;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background: #b88e2f;
+    color: #fff;
+    border-color: #b88e2f;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* DARK MODE */
+
+/* HERO */
+body.dark .shop-hero {
+    background: #1e1e1e;
+}
+
+body.dark .shop-hero h1 {
+    color: #ffffff;
+}
+
+/* TOOLBAR */
+body.dark .shop-toolbar {
+    background: #2a2418;
+}
+
+body.dark .shop-toolbar,
+body.dark .shop-toolbar label,
+body.dark .shop-toolbar span {
+    color: #ffffff;
+}
+
+body.dark .shop-select select {
+    background: #2b2b2b;
+    color: #ffffff;
+    border: 1px solid #555;
+}
+
+/* PAGINATION */
+body.dark .pagination button {
+    background: #2b2b2b;
+    color: #ffffff;
+    border-color: #555;
+}
+
+body.dark .pagination button.active {
+    background: #b88e2f;
+    color: #ffffff;
+    border-color: #b88e2f;
+}

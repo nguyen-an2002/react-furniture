@@ -1,0 +1,50 @@
+{
+    "nav": {
+        "home": "Home",
+        "shop": "Shop",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "button": {
+        "addToCart": "Add to cart",
+        "description": "Description"
+    },
+    "footer": {
+        "links": "Links",
+        "home": "Home",
+        "shop": "Shop",
+        "about": "About",
+        "contact": "Contact",
+        "help": "Help",
+        "payment": "Payment Options",
+        "returns": "Returns",
+        "privacy": "Privacy Policies",
+        "newsletter": "Newsletter",
+        "placeholder": "Enter Your Email Address",
+        "subscribe": "SUBSCRIBE",
+        "copyright": "2023 furniro. All rights reserved"
+    },
+    "message": {
+        "emailRequired": "Please enter your email",
+        "emailInvalid": "Not valid email address",
+        "subscribeSuccess": "Subscribed successfully!"
+    },
+    "feature": {
+        "quality": {
+            "title": "High Quality",
+            "desc": "crafted from top materials"
+        },
+        "warranty": {
+            "title": "Warranty Protection",
+            "desc": "Over 2 years"
+        },
+        "shipping": {
+            "title": "Free Shipping",
+            "desc": "Order over 150 $"
+        },
+        "support": {
+            "title": "24 / 7 Support",
+            "desc": "Dedicated support"
+        }
+    }
+}

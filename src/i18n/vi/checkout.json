@@ -1,0 +1,27 @@
+{
+    "hero": {
+        "title": "Cửa hàng",
+        "breadcrumb": "Trang chủ > Thanh toán"
+    },
+    "billing": {
+        "title": "Thông tin thanh toán",
+        "name": "Họ và tên",
+        "address": "Địa chỉ",
+        "phone": "Số điện thoại",
+        "email": "Email"
+    },
+    "order": {
+        "title": "Sản phẩm",
+        "total": "Tổng cộng",
+        "place": "Đặt hàng"
+    },
+    "message": {
+        "emptyCart": "Giỏ hàng của bạn đang trống",
+        "name": "Vui lòng nhập họ và tên",
+        "address": "Vui lòng nhập địa chỉ",
+        "phone": "Vui lòng nhập số điện thoại",
+        "email": "Vui lòng nhập email",
+        "emailInvalid": "Email phải là @gmail.com hoặc kết thúc bằng .vn",
+        "success": "Đặt hàng thành công!"
+    }
+}

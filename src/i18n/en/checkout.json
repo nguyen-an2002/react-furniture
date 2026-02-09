@@ -1,0 +1,27 @@
+{
+    "hero": {
+        "title": "Shop",
+        "breadcrumb": "Home > Checkout"
+    },
+    "billing": {
+        "title": "Billing details",
+        "name": "Full name",
+        "address": "Address",
+        "phone": "Phone",
+        "email": "Email"
+    },
+    "order": {
+        "title": "Product",
+        "total": "Total",
+        "place": "Place order"
+    },
+    "message": {
+        "emptyCart": "Your cart is empty",
+        "name": "Please enter your full name",
+        "address": "Please enter your address",
+        "phone": "Please enter your phone number",
+        "email": "Please enter your email",
+        "emailInvalid": "Email must be @gmail.com or end with .vn",
+        "success": "Place order successfully!"
+    }
+}

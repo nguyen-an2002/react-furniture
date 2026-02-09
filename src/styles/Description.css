@@ -1,0 +1,8 @@
+.description-btn {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}

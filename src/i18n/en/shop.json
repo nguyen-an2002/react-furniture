@@ -1,0 +1,17 @@
+{
+    "hero": {
+        "title": "Shop",
+        "breadcrumb": "Home > Shop"
+    },
+    "toolbar": {
+        "showing": "Showing {{from}}–{{to}} of {{total}} results",
+        "show": "Show",
+        "sort": "Sort by",
+        "default": "Default"
+    },
+    "pagination": {
+        "prev": "Prev",
+        "next": "Next",
+        "page": "Page {{current}} - {{total}}"
+    }
+}
