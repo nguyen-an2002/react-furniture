@@ -5,13 +5,13 @@ import DescriptionButton from "../components/DescriptionButton";
 import { useTranslation } from "react-i18next";
 
 import img1 from "../assets/Home/OurProductHome/image1.png";
-import img2 from "../assets/Home/OurProductHome/image2.png";
-import img3 from "../assets/Home/OurProductHome/image3.png";
-import img4 from "../assets/Home/OurProductHome/image4.png";
-import img5 from "../assets/Home/OurProductHome/image5.png";
-import img6 from "../assets/Home/OurProductHome/image6.png";
-import img7 from "../assets/Home/OurProductHome/image7.png";
-import img8 from "../assets/Home/OurProductHome/image8.png";
+import img2 from "../assets/Home/OurProductHome/Image2.png";
+import img3 from "../assets/Home/OurProductHome/Image3.png";
+import img4 from "../assets/Home/OurProductHome/Image4.png";
+import img5 from "../assets/Home/OurProductHome/Image5.png";
+import img6 from "../assets/Home/OurProductHome/Image6.png";
+import img7 from "../assets/Home/OurProductHome/Image7.png";
+import img8 from "../assets/Home/OurProductHome/Image8.png";
 
 const products = [
     { id: 1, name: "Syltherine", desc: "Stylish cafe chair", price: "Rp 2.500.000", image: img1 },
