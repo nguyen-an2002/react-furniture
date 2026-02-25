@@ -23,7 +23,6 @@ const Login = () => {
             const user = await loginUser(username, password);
             localStorage.setItem("user", JSON.stringify(user));
             navigate("/");
-            window.location.reload();
         } catch (err: any) {
             setError(err.message || "Đăng nhập thất bại");
         }
