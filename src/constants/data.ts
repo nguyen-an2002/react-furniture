@@ -1,7 +1,7 @@
 import img1 from "../assets/Home/OurProductHome/image1.png";
-import img2 from "../assets/Home/OurProductHome/image2.png";
-import img3 from "../assets/Home/OurProductHome/image3.png";
-import img4 from "../assets/Home/OurProductHome/image4.png";
+import img2 from "../assets/Home/OurProductHome/Image2.png";
+import img3 from "../assets/Home/OurProductHome/Image3.png";
+import img4 from "../assets/Home/OurProductHome/Image4.png";
 
 export const products = [
     { id: 1, name: "Syltherine", desc: "Stylish cafe chair", price: "Rp 2.500.000", image: img1 },
