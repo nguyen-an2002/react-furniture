@@ -2,16 +2,9 @@ import Button from "../components/Button";
 import heroImg from "../assets/Home/HeroHome/slider.png";
 import "../styles/Home/Home.css";
 import { useTranslation } from "react-i18next";
-
+import { Link } from "react-scroll";
 const HeroHome = () => {
     const { t } = useTranslation("home");
-
-    const handleBuyNow = () => {
-        const productSection = document.getElementById("our-product");
-        if (productSection) {
-            productSection.scrollIntoView({ behavior: "smooth" });
-        }
-    };
 
     return (
         <section
@@ -31,10 +24,13 @@ const HeroHome = () => {
                     {t("hero.desc")}
                 </p>
 
-                <Button
-                    label={t("hero.buyNow")}
-                    onClick={handleBuyNow}
-                />
+                <Link
+                    to="our-product"
+                    smooth={true}
+                    duration={500}
+                >
+                    <Button label={t("hero.buyNow")} />
+                </Link>
             </div>
         </section>
     );

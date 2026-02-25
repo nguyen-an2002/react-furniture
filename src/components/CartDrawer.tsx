@@ -38,7 +38,6 @@ const CartDrawer = ({ open, onClose }: CartDrawerProps) => {
 
         setCartItems(newCart);
         localStorage.setItem("cart", JSON.stringify(newCart));
-
     };
 
     const decreaseQty = (id: number) => {
@@ -65,13 +64,11 @@ const CartDrawer = ({ open, onClose }: CartDrawerProps) => {
     return (
         <div className="cart-overlay" onClick={onClose}>
             <div className="cart-drawer" onClick={(e) => e.stopPropagation()}>
-                {/* HEADER */}
                 <div className="cart-header">
                     <h3>{t("title")}</h3>
                     <button onClick={onClose}>{t("close")}</button>
                 </div>
 
-                {/* ITEMS */}
                 <div className="cart-items">
                     {cartItems.length === 0 && (
                         <p>{t("empty")}</p>
@@ -96,7 +93,7 @@ const CartDrawer = ({ open, onClose }: CartDrawerProps) => {
                     ))}
                 </div>
 
-                {/* FOOTER */}
+
                 <div className="cart-footer">
                     <div className="subtotal">
                         <span>{t("subtotal")}</span>

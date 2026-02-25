@@ -121,3 +121,68 @@
     color: #27ae60;
     margin-top: 12px;
 }
+
+/* ================= MOBILE CHECKOUT ================= */
+@media (max-width: 768px) {
+
+    /* HERO */
+    .checkout-hero {
+        height: 200px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .checkout-hero__content h1 {
+        font-size: 22px;
+    }
+
+    .checkout-hero__content p {
+        font-size: 14px;
+    }
+
+    /* CONTENT */
+    .checkout-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        margin: 40px auto;
+    }
+
+    /* BILLING */
+    .billing h3 {
+        font-size: 18px;
+    }
+
+    .billing input {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    /* ORDER */
+    .order {
+        padding: 20px;
+    }
+
+    .order h3 {
+        font-size: 18px;
+    }
+
+    .order-item {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .order-item span {
+        align-self: flex-end;
+        font-size: 13px;
+    }
+
+    .order-total {
+        font-size: 16px;
+    }
+
+    .order button {
+        padding: 12px 0;
+        font-size: 14px;
+    }
+
+}

@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -8,12 +8,10 @@ import Shop from "./Shop/Shop";
 import Checkout from "./Checkout/Checkout";
 import ProductDetail from "./pages/ProductDetail";
 import Login from "./pages/Login";
-
+import Register from "./pages/Register";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   const [theme, setTheme] = useState<"light" | "dark">("light");
-  const location = useLocation();
-
-  const isLoginPage = location.pathname === "/login";
 
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
@@ -34,13 +32,11 @@ function App() {
   return (
     <>
 
-      {!isLoginPage && (
-        <Header toggleTheme={toggleTheme} theme={theme} />
-      )}
-
+      <Header toggleTheme={toggleTheme} theme={theme} />
+      <ScrollToTop />
       <Routes>
         <Route path="/login" element={<Login />} />
-
+        <Route path="/register" element={<Register />} />
         <Route path="/" element={<Home />} />
         <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="/shop" element={<Shop />} />
@@ -49,7 +45,7 @@ function App() {
       </Routes>
 
 
-      {!isLoginPage && <Footer />}
+      <Footer />
     </>
   );
 }

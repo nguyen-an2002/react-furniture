@@ -143,3 +143,71 @@ body.dark .pagination button.active {
     color: #ffffff;
     border-color: #b88e2f;
 }
+
+/* ================= MOBILE SHOP ================= */
+@media (max-width: 768px) {
+
+    /* ===== HERO ===== */
+    .shop-hero {
+        height: 200px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .shop-hero h1 {
+        font-size: 24px;
+    }
+
+    /* ===== TOOLBAR ===== */
+    .shop-toolbar {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 16px;
+        gap: 12px;
+    }
+
+    .shop-toolbar__right {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .shop-select {
+        flex: 1;
+        justify-content: space-between;
+    }
+
+    .shop-select select {
+        width: 80px;
+    }
+
+    /* ===== PRODUCT GRID ===== */
+    .shop-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .product-card__image img {
+        height: 220px;
+        object-fit: cover;
+    }
+
+    /* Overlay luôn hiện nhẹ trên mobile */
+    .product-overlay {
+        opacity: 1;
+        background: rgba(0, 0, 0, 0.15);
+    }
+
+    /* ===== PAGINATION ===== */
+    .pagination {
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .pagination button {
+        width: 120px;
+    }
+}

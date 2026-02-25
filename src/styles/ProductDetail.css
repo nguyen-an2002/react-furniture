@@ -79,3 +79,50 @@
 .quantity span {
     padding: 0 12px;
 }
+
+/* ================= MOBILE PRODUCT DETAIL ================= */
+@media (max-width: 768px) {
+
+    .product-detail {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 40px 20px;
+    }
+
+    /* IMAGE */
+    .product-detail__image {
+        height: 320px;
+        border-radius: 16px;
+    }
+
+    /* INFO */
+    .product-detail__info h1 {
+        font-size: 22px;
+    }
+
+    .price {
+        font-size: 18px;
+    }
+
+    .desc {
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    /* ACTIONS */
+    .actions {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 16px;
+    }
+
+    .actions button {
+        width: 100%;
+    }
+
+    /* RATING */
+    .rating {
+        font-size: 14px;
+    }
+
+}

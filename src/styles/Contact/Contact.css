@@ -107,3 +107,71 @@
     font-size: 13px;
     color: green;
 }
+
+/* ================= MOBILE CONTACT ================= */
+@media (max-width: 768px) {
+
+    /* HERO */
+    .contact-hero {
+        height: 220px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .contact-hero__content h1 {
+        font-size: 24px;
+    }
+
+    .contact-hero__content p {
+        font-size: 14px;
+    }
+
+    /* MAIN */
+    .contact-main {
+        padding: 40px 20px;
+    }
+
+    .contact-main__header {
+        margin-bottom: 40px;
+    }
+
+    .contact-main__header h2 {
+        font-size: 22px;
+    }
+
+    .contact-main__header p {
+        font-size: 14px;
+    }
+
+
+    .contact-main__content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    /* INFO */
+    .contact-info__item h4 {
+        font-size: 16px;
+    }
+
+    .contact-info__item p {
+        font-size: 14px;
+    }
+
+    /* FORM */
+    .contact-form input,
+    .contact-form textarea {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .contact-form textarea {
+        min-height: 100px;
+    }
+
+    /* BUTTON */
+    .btn-primary {
+        width: 100%;
+    }
+
+}

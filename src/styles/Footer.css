@@ -21,7 +21,6 @@ body.dark .footer {
     margin-bottom: 20px;
 }
 
-/* text phụ giữ xám cho cả 2 mode */
 .footer__text {
     color: #9f9f9f;
     line-height: 1.6;
@@ -32,7 +31,7 @@ body.dark .footer {
     font-weight: 600;
 }
 
-/* 🔥 LINK: ĂN THEO THEME */
+
 .footer__col a {
     display: block;
     margin-bottom: 12px;
@@ -70,4 +69,26 @@ body.dark .footer {
     padding-top: 20px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     font-size: 14px;
+}
+
+/* ================= MOBILE ONLY ================= */
+@media (max-width: 768px) {
+
+    .footer {
+        padding: 40px 20px;
+    }
+
+    .footer__top {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer__newsletter {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .footer__bottom {
+        text-align: center;
+    }
 }

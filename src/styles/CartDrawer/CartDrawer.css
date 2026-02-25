@@ -98,3 +98,52 @@ body.dark .cart-info p {
 body.dark .subtotal span {
     color: #ffffff;
 }
+
+/* ================= MOBILE CART DRAWER ================= */
+@media (max-width: 768px) {
+
+    .cart-overlay {
+        justify-content: center;
+    }
+
+    .cart-drawer {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        padding: 20px;
+    }
+
+    .cart-header h3 {
+        font-size: 18px;
+    }
+
+    .cart-item {
+        gap: 10px;
+    }
+
+    .cart-item img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .cart-info p {
+        font-size: 13px;
+    }
+
+    .cart-qty button {
+        padding: 4px 8px;
+    }
+
+    .cart-footer {
+        padding-top: 12px;
+    }
+
+    .subtotal {
+        font-size: 14px;
+    }
+
+    .cart-footer button {
+        width: 100%;
+    }
+
+}

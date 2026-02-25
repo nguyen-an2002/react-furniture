@@ -85,7 +85,6 @@ const Contact = () => {
 
     return (
         <main className="contact">
-            {/* HERO */}
             <section
                 className="contact-hero"
                 style={{ backgroundImage: `url(${bannerImg})` }}
@@ -98,7 +97,6 @@ const Contact = () => {
                 </div>
             </section>
 
-            {/* MAIN */}
             <section className="contact-main">
                 <div className="contact-main__header">
                     <h2>{t("title")}</h2>
@@ -106,7 +104,6 @@ const Contact = () => {
                 </div>
 
                 <div className="contact-main__content">
-                    {/* LEFT */}
                     <div className="contact-info">
                         <div className="contact-info__item">
                             <h4>{t("addressTitle")}</h4>
@@ -124,7 +121,6 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    {/* FORM */}
                     <form className="contact-form" onSubmit={handleSubmit} noValidate>
                         <label>
                             {t("form.name")}

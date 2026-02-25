@@ -25,7 +25,6 @@ const InspirationHome = () => {
 
     return (
         <section className="inspiration">
-            {/* ===== LEFT ===== */}
             <div className="inspiration__left">
                 <h2>
                     {t("inspiration.title").split(" ").slice(0, 2).join(" ")} <br />
@@ -39,7 +38,6 @@ const InspirationHome = () => {
                 <Button label={t("inspiration.explore")} />
             </div>
 
-            {/* ===== CENTER ===== */}
             <div className="inspiration__center">
                 <img
                     src={img1}
@@ -54,7 +52,6 @@ const InspirationHome = () => {
                 </div>
             </div>
 
-            {/* ===== RIGHT (AUTO SLIDER) ===== */}
             <div className="inspiration__right">
                 <div className="preview-slider">
                     <img

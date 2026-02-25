@@ -27,12 +27,10 @@ const ProductDetail = () => {
                 </div>
             </section>
             <div className="product-detail">
-                {/* LEFT IMAGE */}
                 <div
                     className="product-detail__image"
                     style={{ backgroundImage: `url(${product.image})` }}
                 />
-                {/* RIGHT INFO */}
                 <div className="product-detail__info">
                     <h1>{product.name}</h1>
                     <p className="price">{product.price}</p>

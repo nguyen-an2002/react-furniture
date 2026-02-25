@@ -17,8 +17,6 @@
     color: #777;
 }
 
-/* DARK MODE */
-
 body.dark .feature-strip {
     background-color: #1f1b14;
 }
@@ -29,4 +27,23 @@ body.dark .feature-item h4 {
 
 body.dark .feature-item p {
     color: #bdbdbd;
+}
+
+
+@media (max-width: 768px) {
+
+    .feature-strip {
+        padding: 40px 20px;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+    }
+
+    .feature-item h4 {
+        font-size: 16px;
+    }
+
+    .feature-item p {
+        font-size: 13px;
+    }
+
 }
