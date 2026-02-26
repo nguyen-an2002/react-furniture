@@ -8,9 +8,7 @@ import img3 from "../assets/Home/InspirationHome/3.png";
 import img4 from "../assets/Home/InspirationHome/4.png";
 
 import "../styles/Home/Home.css";
-
 const previewImages = [img1, img2, img3, img4];
-
 const InspirationHome = () => {
     const { t } = useTranslation("home");
     const [currentIndex, setCurrentIndex] = useState(0);

@@ -1,17 +1,10 @@
 import { useTranslation } from "react-i18next";
-import { useNavigate } from "react-router-dom";
+
 
 const AddToCartButton = ({ product }: { product: any }) => {
     const { t } = useTranslation("common");
-    const navigate = useNavigate();
 
     const handleAddToCart = () => {
-        const user = localStorage.getItem("user");
-
-        if (!user) {
-            navigate("/login");
-            return;
-        }
 
         const cart = JSON.parse(localStorage.getItem("cart") || "[]");
         const existingProduct = cart.find(

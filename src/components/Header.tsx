@@ -42,20 +42,17 @@ const Header = ({ toggleTheme, theme }: HeaderProps) => {
     };
 
     useEffect(() => {
-        const checkCart = () => {
-            const cart = JSON.parse(localStorage.getItem("cart") || "[]");
+        const user = localStorage.getItem("user");
+        if (user) {
+            setCurrentUser(JSON.parse(user));
+        }
 
-            let total = 0;
-            for (let i = 0; i < cart.length; i++) {
-                total += cart[i].quantity;
-            }
-
-            setCartCount(total);
-        };
-
-        checkCart();
-        const interval = setInterval(checkCart, 100);
-        return () => clearInterval(interval);
+        const cart = JSON.parse(localStorage.getItem("cart") || "[]");
+        let total = 0;
+        for (let i = 0; i < cart.length; i++) {
+            total += cart[i].quantity;
+        }
+        setCartCount(total);
     }, []);
 
     return (
@@ -145,11 +142,6 @@ const Header = ({ toggleTheme, theme }: HeaderProps) => {
                 <div
 
                     onClick={() => {
-                        if (!currentUser) {
-                            navigate("/login");
-                            return;
-                        }
-
                         setOpenCart(true);
                     }}
 

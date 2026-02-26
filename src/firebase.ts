@@ -13,7 +13,7 @@ const firebaseConfig = {
     appId: "1:774104927596:web:e6ffbfd30e1546c22f7749",
 };
 
-
+// khoi tao firebase
 export const firebaseApp = initializeApp(firebaseConfig);
 export const auth = getAuth(firebaseApp);
 export const db = getFirestore(firebaseApp);
